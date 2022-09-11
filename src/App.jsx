@@ -1,7 +1,17 @@
 import React from 'react'
+import styles from './style'
 
-export const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+const App = () => (
+    <div className='bg-primary w-full overflow-hidden'>
+      {/* Navigational Bar */}
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          NavBar
+        </div>
+      </div>
+      
+    </div>
+);
+
+
+export default App
